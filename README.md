@@ -1,31 +1,39 @@
 # 华硕路由器科学上网教程，操作简单！华硕路由器刷梅林固件安装Clash翻墙设置,ax86u pro
-
-### 最新版的TikTok暂时不支持免拔卡使用，需要下载旧版。
+本教程会详细介绍华硕路由器如何刷梅林固件和安装Clash科学上网。
 
 ### 操作步骤<br>
-1、<a href="https://github.com/kjfx/ios-tiktok-ipa" target="_blank">下载 tiktok ios ipa 旧版 点击下载>></a><br>
 
-2、下载 Shadowrocket<br>
+### 一、恢复出厂设置
 
-3、打开Shadowrocket → 配置 → default.conf → 编辑配置 → HTTPS解密 → 开启HTTPS解密 → 生成新的CA订书 → 生成新的CA订书 → 安装证书 → 允许 → 打开设置 → 已下载描述文件 → 安装 → 安装 → 安装 → 完成 → 通用 → 关于本机 → 证书信任设置 → 开启信任Shadowrocket证书 → 继续 → 打开Shadowrocket → 关闭 → √ → √ → 配置 → default.conf → 编辑纯文本 → 滚动条拉到最下面 <br>
-在最下面粘贴以下代码：
+### 二、刷入梅林固件
+梅林固件下载地址：[点击下载>>](https://fw.koolcenter.com/)
 
-    [URL Rewrite]
-    (?<=_region=)CN(?=&) JP 307
-    (?<=&mcc_mnc=)4 2 307
-    ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
-    (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
+### 三、下载安装 Clash
+1、可以通过电报下载：[点击查看>>](https://t.me/s/merlinclashfile)<br/>
+2、如果你不方便使用电报，也可以下面地址下载：
 
-    [MITM]
-    hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
-    
-再点击保存。
+- ARM V8 64位版：[点击下载>>](https://github.com/aews/lyq/releases/download/huashuo/MC_ARM64_250124.tar.gz)<br/>
+    支持<br/>
+    --BE88U/BE86U/BE96U<br/>
+    --AC86U/GT5300<br/>
+    --AX68U/AX86U/AX88U/AX92U/AX11000<br/>
+    --AX11000 pro/AX86U pro/AX88U pro/GT-AX6000<br/>
+    --TX-AX6000/TUF-AX4200q<br/>
+    --RAX80等
 
-4、在Shadowrocket添加节点，开启科学上网。<br>
+- ARM V7 AX32版：[点击下载>>](https://github.com/aews/lyq/releases/download/huashuo/MC_AX32_250124.tar.gz)<br/>
+    支持<br/>
+    --AX3000/AX5400/AX6600/GT6<br/>
+    --AX82U/AX56U/AX58U/AX1800<br/>
+    --AX89X<br/>
+    --RAX50<br/>
+    --AX56Uv2/AX57U等
 
-5、打开TikTok App 即可实现免拔卡看，可以登录，评论。
+### 四、使用Clash 实现科学上网
 
-### 如何更改国家：
-默认是日本区，可以更改这行代码中的JP 【(?<=_region=)CN(?=&) JP 307】<br>
-美国示例： (?<=_region=)CN(?=&) US 307<br>
-英文简写 JP（日本）｜KR（韩国）｜UK（英国）｜US（美国）｜TW（中国台湾）
+### 五、恢复华硕路由器官方固件
+如果需要刷回官方固件也非常简单，首先下载官方固件，再刷机即可。<br/>
+华硕官方固件下载地址：[点击打开>>](https://www.asus.com.cn/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u-pro/helpdesk_bios?model2Name=RT-AX86U-Pro)<br/>
+步骤：搜索路由器型号 - 服务支持 - 驱动程序和工具软件 - BIOS & 固件
+
+
