@@ -44,10 +44,15 @@ GT-BE98_PRO [点击下载>>](https://fw.koolcenter.com/KoolCenter_Merlin_New_Gen
     --AX56Uv2/AX57U等
 
 ### 四、使用Clash 实现科学上网
+设置好了之后，只要连接路由器的设备都能科学上网。
 
 ### 五、恢复华硕路由器官方固件
 如果需要刷回官方固件也非常简单，首先下载官方固件，再刷机即可。<br/>
 华硕官方固件下载地址：[点击打开>>](https://www.asus.com.cn/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u-pro/helpdesk_bios?model2Name=RT-AX86U-Pro)<br/>
 步骤：搜索路由器型号 - 服务支持 - 驱动程序和工具软件 - BIOS & 固件
+
+我使用的机场网站：https://www.txyun.xyz/<br/>
+电报群：https://t.me/kjfxlyq
+
 
 
