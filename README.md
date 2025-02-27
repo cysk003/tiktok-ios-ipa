@@ -49,7 +49,7 @@ GT-BE98_PRO [点击下载>>](https://fw.koolcenter.com/KoolCenter_Merlin_New_Gen
 ### 五、恢复华硕路由器官方固件
 如果需要刷回官方固件也非常简单，首先下载官方固件，再刷机即可。<br/>
 华硕官方固件下载地址：[点击打开>>](https://www.asus.com.cn/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u-pro/helpdesk_bios?model2Name=RT-AX86U-Pro)<br/>
-步骤：搜索路由器型号 - 服务支持 - 驱动程序和工具软件 - BIOS & 固件
+步骤：[打开固件下载网址](https://www.asus.com.cn/support/download-center/) - 搜索路由器型号 - 驱动程序和工具软件 - BIOS & 固件
 
 ### 相关网址
 我使用的机场网站：https://www.txyun.xyz/<br/>
