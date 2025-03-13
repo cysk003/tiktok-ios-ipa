@@ -25,7 +25,7 @@ GT-BE98_PRO [点击下载>>](https://fw.koolcenter.com/KoolCenter_Merlin_New_Gen
 
 ### 三、下载安装 Merlin Clash
 1、可以通过电报下载：[点击查看>>](https://t.me/s/merlinclashfile)<br/>
-2、如果你不方便使用电报，也可以下面地址下载：
+2、如果你不方便使用电报，也可以在下面地址下载：
 
 - ARM V8 64位版：[点击下载>>](https://github.com/aews/lyq/releases/download/huashuo/MC2_0.3_ARM64.tar.gz)<br/>
     支持<br/>
